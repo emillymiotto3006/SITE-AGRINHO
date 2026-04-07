@@ -1,11 +1,79 @@
 <!DOCTYPE html>
-<!-- Define que o documento está em HTML5 -->
-<html lang="pt-BR">
-<!-- Defineo idioma como português do Brasil -->
+<html lang="pt-br">
 <head>
-    <!-- Configurações invisíveis da página -->
     <meta charset="UTF-8">
-    <!-- Permite usar acentos e caracteres especiais -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Faz o site se adaptar a celulares (responsividade) -->
-  
+    <meta name="description" content="Agroforte: Futuro Sustentável - Equilíbrio entre Produção e Meio Ambiente">
+    <title>Agroforte: Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#equilibrio">Equilíbrio</a></li>
+                <li><a href="#boas-praticas">Boas Práticas</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/slider1.jpg" alt="Agricultura Sustentável">
+            </div>
+            <div class="slide">
+                <img src="images/slider2.jpg" alt="Tecnologia na Agricultura">
+            </div>
+            <div class="slide">
+                <img src="images/slider3.jpg" alt="Preservação Ambiental">
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>O que é a Agroforte?</h2>
+        <p>A Agroforte é uma empresa focada no desenvolvimento de soluções sustentáveis para o agronegócio. Nosso compromisso é promover um equilíbrio entre produção agrícola e preservação ambiental, utilizando tecnologias inovadoras que garantem a sustentabilidade e a produtividade no campo.</p>
+    </section>
+
+    <section id="equilibrio">
+        <h2>Como Alcançamos o Equilíbrio?</h2>
+        <p>O equilíbrio entre produção agrícola e preservação ambiental é atingido através do uso de práticas sustentáveis que maximizam a eficiência na produção de alimentos e minimizam os impactos ambientais, como o uso responsável de recursos naturais e a preservação da biodiversidade.</p>
+    </section>
+
+    <section id="boas-praticas">
+        <h2>Exemplos de Boas Práticas</h2>
+        <ul>
+            <li>Uso de irrigação de precisão para economizar água.</li>
+            <li>Rotações de culturas para melhorar a saúde do solo.</li>
+            <li>Uso de biopesticidas para reduzir o impacto ambiental.</li>
+        </ul>
+    </section>
+
+    <section id="tecnologia">
+        <h2>Importância da Tecnologia na Agricultura</h2>
+        <p>A adoção de tecnologias sustentáveis, como drones para monitoramento de culturas e sensores de solo, tem revolucionado a forma como a agricultura é conduzida, tornando-a mais eficiente e menos impactante ao meio ambiente.</p>
+        <div id="grafico-impacto"></div>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form id="formContato">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agroforte - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
